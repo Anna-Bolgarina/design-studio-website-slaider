@@ -381,11 +381,13 @@ h6 {
 }
 .projects-photo__slaider {
   margin-top: 53px;
+  /* height: 100%; */
 
   position: relative;
 }
 
 .projects-photo__img {
+  max-height: 458px;
   position: absolute;
 
   -webkit-transition: 0.2s;
